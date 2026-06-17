@@ -25,7 +25,7 @@
       const content = document.createElement("div");
       const status = document.createElement("p");
       const title = document.createElement("h2");
-      const isLocked = character.id !== "viktoria";
+      const isLocked = Boolean(character.status);
 
       link.className = "selection-card";
       link.href = isLocked ? "#" : "character.html?character=" + character.id;

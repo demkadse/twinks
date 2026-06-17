@@ -1,6 +1,6 @@
 # Twinks
 
-GitHub-Pages-Grundgeruest fuer eine Charakterseite mit:
+GitHub-Pages-Grundgerüst für eine Charakterseite mit:
 
 - `index.html` als Selection-Seite
 - `character.html` als gemeinsame Detailseite pro Figur
@@ -19,4 +19,4 @@ Passe danach in `js/data.js` die Dateinamen, Texte und Tabs an.
 
 ## Wichtiger Hinweis
 
-Aktuell sind Bild- und Audiodateien als Platzhalter referenziert. Ohne eigene Dateien zeigt die Seite nur die Farb- und Verlaufsebenen an, bleibt technisch aber lauffaehig.
+Aktuell sind Bild- und Audiodateien als Platzhalter referenziert. Ohne eigene Dateien zeigt die Seite nur die Farb- und Verlaufsebenen an, bleibt technisch aber lauffähig.

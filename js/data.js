@@ -59,7 +59,7 @@ const TWINKS_SITE = {
       cardDescription: "Eine Viera mit unklarer Herkunft, Kampfkunst und einem Leben zwischen Wildnis und Handwerk.",
       theme: "linear-gradient(135deg, #7a513a 0%, #20110f 100%)",
       selectionImage: "url('assets/images/asta_selection.png')",
-      portrait: "linear-gradient(135deg, rgba(205, 131, 95, 0.36), rgba(22, 12, 11, 0.88))",
+      portrait: "linear-gradient(135deg, rgba(18, 9, 8, 0.08), rgba(18, 9, 8, 0.62)), url('assets/images/asta_dancer.png')",
       tabs: [
         {
           id: "overview",
@@ -77,7 +77,7 @@ const TWINKS_SITE = {
           label: "Story",
           kicker: "Hintergrund",
           title: "Ihre Geschichte beginnt in Waeldern, ueber die mehr gemunkelt als gewusst wird.",
-          background: "linear-gradient(135deg, rgba(124, 60, 58, 0.66), rgba(18, 10, 14, 0.88)), url('assets/images/asta-story.jpg')",
+          background: "linear-gradient(135deg, rgba(56, 24, 24, 0.58), rgba(18, 10, 14, 0.9)), url('assets/images/asta_dancer.png')",
           paragraphs: [
             "Asta stammt offenbar aus einem Viera-Stamm, der abgeschieden und wenig zivilisiert lebt. Vieles daran bleibt unklar, und genau diese Unklarheit sollte auch in ihrem Profil erhalten bleiben.",
             "Dieser Bereich wird noch weiter ausgebaut, aber die Grundlinie steht: Waldherkunft, eine ungeschliffene Praegung und ein Leben, das nicht aus Staedten oder Hoefen kommt."
@@ -107,8 +107,8 @@ const TWINKS_SITE = {
         }
       ],
       audio: {
-        src: "assets/audio/Asta - Motion.mp3",
-        label: "Motion"
+        src: "assets/audio/Asta - From Hide to Velvet.mp3",
+        label: "From Hide to Velvet"
       }
     },
     {

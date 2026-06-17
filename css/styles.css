@@ -182,20 +182,11 @@ button {
 
 .background-portrait {
   background-position: center right;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .background-shade {
-  background:
-    linear-gradient(
-      90deg,
-      rgba(6, 9, 11, 0.98) 0%,
-      rgba(6, 9, 11, 0.95) 24%,
-      rgba(6, 9, 11, 0.72) 42%,
-      rgba(6, 9, 11, 0.3) 58%,
-      rgba(6, 9, 11, 0.08) 70%,
-      rgba(6, 9, 11, 0) 100%
-    );
+  display: none;
 }
 
 .side-nav,
@@ -391,7 +382,7 @@ audio {
 
   .background-portrait {
     background-position: center;
-    opacity: 0.28;
+    opacity: 1;
   }
 }
 

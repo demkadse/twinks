@@ -59,7 +59,7 @@ const TWINKS_SITE = {
       cardDescription: "Eine Viera mit unklarer Herkunft, Kampfkunst und einem Leben zwischen Wildnis und Handwerk.",
       theme: "linear-gradient(135deg, #7a513a 0%, #20110f 100%)",
       selectionImage: "url('assets/images/asta_selection.png')",
-      portrait: "url('assets/images/asta_dancer.png')",
+      portrait: "linear-gradient(135deg, rgba(205, 131, 95, 0.36), rgba(22, 12, 11, 0.88))",
       tabs: [
         {
           id: "overview",
@@ -76,11 +76,11 @@ const TWINKS_SITE = {
           id: "story",
           label: "Story",
           kicker: "Hintergrund",
-          title: "Ihre Geschichte beginnt in Waeldern, ueber die mehr gemunkelt als gewusst wird.",
+          title: "Aus tiefem Dschungel fuehrte Asta ihr Weg ueber den Tanz in die Zivilisation.",
           background: "url('assets/images/asta_dancer.png')",
           paragraphs: [
-            "Asta stammt offenbar aus einem Viera-Stamm, der abgeschieden und wenig zivilisiert lebt. Vieles daran bleibt unklar, und genau diese Unklarheit sollte auch in ihrem Profil erhalten bleiben.",
-            "Dieser Bereich wird noch weiter ausgebaut, aber die Grundlinie steht: Waldherkunft, eine ungeschliffene Praegung und ein Leben, das nicht aus Staedten oder Hoefen kommt."
+            "Asta stammt aus tiefen Dschungeln und aus einem Leben, das weit von staedtischer Ordnung entfernt war. Als sie spaeter die Zivilisation erreichte, war es ausgerechnet der Tanz, der ihr zuerst einen Platz in dieser fremden Welt oeffnete.",
+            "Dort merkte sie jedoch frueh, dass Bewunderung allein kein verlaessliches Einkommen schafft. Tanzen wird gesehen und begehrt, aber wirklich Geld verdient wird dort, wo Menschen bereit sind, fuer etwas Konkretes zu zahlen."
           ]
         },
         {
@@ -98,11 +98,11 @@ const TWINKS_SITE = {
           id: "craft",
           label: "Handwerk",
           kicker: "Alltag",
-          title: "Ihr Gil verdient Asta nicht nur mit Kampf, sondern mit Alchemie.",
+          title: "Was Asta verkauft, ist nicht nur Wirkung, sondern etwas, das Menschen mitnehmen koennen.",
           background: "linear-gradient(135deg, rgba(126, 92, 54, 0.58), rgba(19, 13, 10, 0.88)), url('assets/images/asta-craft.jpg')",
           paragraphs: [
-            "Asta ist Taenzerin im Sinne der Kampfklasse aus FFXIV. Ihren Lebensunterhalt verdient sie sich jedoch auch mit Alchemie, Tinkturen und Traenken.",
-            "Diese Seite ist noch nicht vollstaendig, aber dieser Reiter setzt bereits den praktischen Kern der Figur: Kampfkunst, Handwerk und ein Einkommen, das aus eigenem Koennen entsteht."
+            "Dieser Reiter ist fuer Astas Handwerk gedacht und soll spaeter genauer ausarbeiten, was sie herstellt, verkauft und wie sehr dieses Koennen ihren Alltag praegt.",
+            "Der Schwerpunkt liegt hier nicht auf ihrer Herkunft oder ihrem Weg in die Staedte, sondern auf dem, was sie sich dort praktisch aufgebaut hat."
           ]
         }
       ],

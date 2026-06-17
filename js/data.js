@@ -59,7 +59,7 @@ const TWINKS_SITE = {
       cardDescription: "Eine Viera mit unklarer Herkunft, Kampfkunst und einem Leben zwischen Wildnis und Handwerk.",
       theme: "linear-gradient(135deg, #7a513a 0%, #20110f 100%)",
       selectionImage: "url('assets/images/asta_selection.png')",
-      portrait: "linear-gradient(135deg, rgba(18, 9, 8, 0.08), rgba(18, 9, 8, 0.62)), url('assets/images/asta_dancer.png')",
+      portrait: "url('assets/images/asta_dancer.png')",
       tabs: [
         {
           id: "overview",
@@ -77,7 +77,7 @@ const TWINKS_SITE = {
           label: "Story",
           kicker: "Hintergrund",
           title: "Ihre Geschichte beginnt in Waeldern, ueber die mehr gemunkelt als gewusst wird.",
-          background: "linear-gradient(135deg, rgba(56, 24, 24, 0.58), rgba(18, 10, 14, 0.9)), url('assets/images/asta_dancer.png')",
+          background: "url('assets/images/asta_dancer.png')",
           paragraphs: [
             "Asta stammt offenbar aus einem Viera-Stamm, der abgeschieden und wenig zivilisiert lebt. Vieles daran bleibt unklar, und genau diese Unklarheit sollte auch in ihrem Profil erhalten bleiben.",
             "Dieser Bereich wird noch weiter ausgebaut, aber die Grundlinie steht: Waldherkunft, eine ungeschliffene Praegung und ein Leben, das nicht aus Staedten oder Hoefen kommt."

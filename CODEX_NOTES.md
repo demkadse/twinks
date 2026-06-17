@@ -27,6 +27,7 @@ Statische GitHub-Page fuer vier Charaktere:
 - `assets/images/viktoria_beziehungen.png`
 - `assets/images/asta_selection.png`
 - `assets/images/asta_dancer.png`
+- `assets/images/asta_handwerk.png`
 - `assets/images/asta_ueberblick.png`
 - `assets/audio/Asta - From Hide to Velvet.mp3`
 - `assets/audio/Viktoria - When Love Becomes A Law.mp3`
@@ -39,6 +40,7 @@ Diese wurden bereits eingebunden:
 - `Viktoria - When Love Becomes A Law.mp3` als Viktorias aktueller Track
 - `asta_selection.png` als Astas Selection-Bild
 - `asta_dancer.png` als Astas Portrait- und Story-Motiv
+- `asta_handwerk.png` als Astas Handwerk-Hintergrund
 - `asta_ueberblick.png` als Astas Ueberblick-Hintergrund
 - `Asta - From Hide to Velvet.mp3` als Astas aktueller Track
 
@@ -61,5 +63,5 @@ Wenn neue Dateien abgelegt werden, soll ihre Benennung direkt auf die Einbindung
 
 ## Naechster sinnvoller Schritt
 
-- echte Bilder fuer Astas Reiter `Beziehungen` und `Handwerk` ablegen
+- echtes Bild fuer Astas Reiter `Beziehungen` ablegen
 - danach Nanuk und Asahi mit echten Medien statt Platzhalter-Verlaeufen ausstatten

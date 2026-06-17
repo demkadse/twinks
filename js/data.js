@@ -98,11 +98,11 @@ const TWINKS_SITE = {
           id: "craft",
           label: "Handwerk",
           kicker: "Alltag",
-          title: "Was Asta verkauft, ist nicht nur Wirkung, sondern etwas, das Menschen mitnehmen koennen.",
-          background: "linear-gradient(135deg, rgba(126, 92, 54, 0.58), rgba(19, 13, 10, 0.88)), url('assets/images/asta-craft.jpg')",
+          title: "Asta hat frueh gelernt, dass bestaendiges Geld dort liegt, wo man etwas Reales verkaufen kann.",
+          background: "url('assets/images/asta_handwerk.png')",
           paragraphs: [
-            "Dieser Reiter ist fuer Astas Handwerk gedacht und soll spaeter genauer ausarbeiten, was sie herstellt, verkauft und wie sehr dieses Koennen ihren Alltag praegt.",
-            "Der Schwerpunkt liegt hier nicht auf ihrer Herkunft oder ihrem Weg in die Staedte, sondern auf dem, was sie sich dort praktisch aufgebaut hat."
+            "Darum baute Asta sich neben dem Tanz ein zweites Standbein auf: Alchemie. Sie verkauft keine blossen Versprechen, sondern Dinge, die man anfassen, mitnehmen und anwenden kann.",
+            "Tinkturen, Traenke und brauchbare Mischungen geben ihr die Art von Einkommen, auf die sie sich eher verlaesst als auf Blicke, Begehren oder den fluechtigen Reiz eines Auftritts."
           ]
         }
       ],

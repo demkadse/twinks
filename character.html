@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twinks | Charakter</title>
+  <meta name="description" content="Charakteransicht mit vertikaler Reiternavigation, fortlaufender Musik und wechselnden Inhalten ohne Seitenreload.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="character-page">
+  <div class="character-stage" id="character-stage">
+    <div class="background-layer background-ambient" id="ambient-layer"></div>
+    <div class="background-layer background-portrait" id="portrait-layer"></div>
+    <div class="background-layer background-shade"></div>
+
+    <aside class="side-nav">
+      <a class="brand-link" href="index.html">Twinks</a>
+      <nav class="tab-nav" id="tab-nav" aria-label="Charakterbereiche"></nav>
+      <div class="side-actions">
+        <button type="button" class="text-button" data-open-modal="privacy-modal">Datenschutz</button>
+        <button type="button" class="text-button" data-open-modal="copyright-modal">Urheberrecht</button>
+      </div>
+    </aside>
+
+    <main class="content-panel">
+      <a class="back-link" href="index.html">Zur Auswahl</a>
+      <section class="intro-block">
+        <p class="eyebrow" id="character-role"></p>
+        <h1 id="character-name"></h1>
+        <p class="lead" id="character-hook"></p>
+      </section>
+
+      <section class="content-card">
+        <div class="card-header">
+          <p class="section-kicker" id="tab-kicker"></p>
+          <h2 id="tab-title"></h2>
+        </div>
+        <div class="rich-copy" id="tab-body"></div>
+      </section>
+    </main>
+
+    <section class="player-shell" aria-label="Musikplayer">
+      <p class="player-label">Sound</p>
+      <p class="player-track" id="track-name">Kein Track geladen</p>
+      <audio id="character-audio" controls preload="none"></audio>
+    </section>
+  </div>
+
+  <div class="modal" id="privacy-modal" aria-hidden="true" role="dialog" aria-labelledby="privacy-title">
+    <div class="modal-card">
+      <button type="button" class="modal-close" data-close-modal>&times;</button>
+      <h2 id="privacy-title">Datenschutz</h2>
+      <div class="modal-copy" id="privacy-copy"></div>
+    </div>
+  </div>
+
+  <div class="modal" id="copyright-modal" aria-hidden="true" role="dialog" aria-labelledby="copyright-title">
+    <div class="modal-card">
+      <button type="button" class="modal-close" data-close-modal>&times;</button>
+      <h2 id="copyright-title">Urheberrecht</h2>
+      <div class="modal-copy" id="copyright-copy"></div>
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -66,7 +66,7 @@ const TWINKS_SITE = {
           label: "Ueberblick",
           kicker: "Erster Eindruck",
           title: "Asta traegt Wildnis, Koerperspannung und Instinkt offen an der Oberflaeche.",
-          background: "linear-gradient(135deg, rgba(157, 87, 63, 0.62), rgba(18, 10, 10, 0.86)), url('assets/images/asta-overview.jpg')",
+          background: "url('assets/images/asta_ueberblick.png')",
           paragraphs: [
             "Asta ist eine Viera, doch wo genau sie herkommt, weiss kaum jemand sicher. Alles, was man ueber sie sagen kann, fuehrt in irgendwelche tiefen Waelder und zu einem Stamm, der eher unzivilisiert lebt.",
             "Sie bewegt sich wie jemand, der nie ganz verlernt hat, auf Instinkt zu hoeren. Die Seite wird noch vervollstaendigt, aber Herkunft, Auftreten und erste Wirkung sind hier bereits angelegt."
@@ -107,8 +107,8 @@ const TWINKS_SITE = {
         }
       ],
       audio: {
-        src: "assets/audio/asta-theme.mp3",
-        label: "Asta Theme"
+        src: "assets/audio/Asta - Motion.mp3",
+        label: "Motion"
       }
     },
     {

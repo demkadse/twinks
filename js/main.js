@@ -25,12 +25,16 @@
       const content = document.createElement("div");
       const status = document.createElement("p");
       const title = document.createElement("h2");
+      const isLocked = character.id !== "viktoria";
 
       link.className = "selection-card";
-      link.href = "character.html?character=" + character.id;
+      link.href = isLocked ? "#" : "character.html?character=" + character.id;
+      link.setAttribute("aria-disabled", isLocked ? "true" : "false");
+      link.tabIndex = isLocked ? -1 : 0;
       link.style.backgroundImage = (character.selectionImage || character.portrait) + ", " + character.theme;
       link.style.backgroundSize = "cover, cover";
       link.style.backgroundPosition = "center, center";
+      link.classList.toggle("is-disabled", isLocked);
 
       content.className = "card-content";
       status.className = "selection-status eyebrow";
@@ -42,6 +46,13 @@
       }
       content.appendChild(title);
       link.appendChild(content);
+
+      if (isLocked) {
+        link.addEventListener("click", function (event) {
+          event.preventDefault();
+        });
+      }
+
       grid.appendChild(link);
     });
   }

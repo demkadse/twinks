@@ -482,9 +482,25 @@ audio {
   box-shadow: none;
 }
 
+.selection-stage .selection-card.is-disabled,
+.selection-stage .selection-card.is-disabled:hover,
+.selection-stage .selection-card.is-disabled:focus-visible {
+  cursor: default;
+  transform: none;
+  filter: saturate(0.72);
+  border-color: rgba(247, 241, 232, 0.08);
+}
+
 .selection-stage .selection-card:hover::after,
 .selection-stage .selection-card:focus-visible::after {
   opacity: 1;
+}
+
+.selection-stage .selection-card.is-disabled::after {
+  opacity: 1;
+  background:
+    linear-gradient(180deg, rgba(5, 7, 8, 0.12), rgba(5, 7, 8, 0.42)),
+    linear-gradient(135deg, transparent 0%, rgba(216, 175, 116, 0.08) 100%);
 }
 
 .selection-stage .card-content {

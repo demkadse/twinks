@@ -87,11 +87,11 @@ const TWINKS_SITE = {
           id: "relations",
           label: "Beziehungen",
           kicker: "Dynamiken",
-          title: "Asta bringt Bewegung in jede Dynamik, weil sie selten nach fremden Regeln spielt.",
+          title: "Asta glaubt weder an Monogamie noch an die Ehe als Modell fuer echte Naehe.",
           background: "linear-gradient(135deg, rgba(184, 124, 76, 0.58), rgba(18, 12, 10, 0.88)), url('assets/images/asta-relations.jpg')",
           paragraphs: [
-            "Als Taenzerin und Kaempferin bringt sie Koerperbeherrschung, Tempo und eine gewisse Unberechenbarkeit mit. Das wirkt auf andere selten neutral.",
-            "Auch dieser Bereich wird noch vervollstaendigt, aber spaeter passen hier Spannungen aus Kulturunterschieden, Naehe, Misstrauen oder Faszination sehr gut hinein."
+            "Asta glaubt weder an Monogamie noch an das Konstrukt der Ehe. Fuer sie hat Liebe nur dann Wert, wenn sie atmen darf und nicht in Regeln, Besitzdenken oder Exklusivitaet gezwungen wird.",
+            "Sie liebt das Leben und die Freiheit zu sehr, um all das an eine einzelne Person zu binden. Asta hat so viel zu geben, dass ein einzelner Mensch davon leicht ueberfordert waere und ihr zugleich kaum gerecht werden koennte."
           ]
         },
         {
